@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prova JS</title>
+</head>
+
+<body>
+    <script>
+        let raio = prompt("informe o raio:");
+
+        raio = parseFloat(raio);
+
+        let perimetro = 2 * Math.PI * raio;
+        let area = Math.PI * Math.pow(raio, 2);
+        let diametro = 2 * raio;
+
+        alert(`raio = ${raio}\n\nperimetro -> ${perimetro}\narea -> ${area}\ndiametro -> ${diametro}`);
+    </script>
+</body>
+
+</html>
